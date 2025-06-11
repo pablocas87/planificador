@@ -6,6 +6,27 @@
  */
 
 document.addEventListener("DOMContentLoaded", () => {
+  /* ---------------- Clave API de Gemini --------------------- */
+  const GEMINI_API_KEY = window.GEMINI_API_KEY || "";
+
+  async function askGemini(prompt) {
+    if (!GEMINI_API_KEY) {
+      showToast("API key no configurada", "error");
+      return "";
+    }
+    const url =
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" +
+      GEMINI_API_KEY;
+    const res = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
+    });
+    const data = await res.json();
+    return (
+      data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || ""
+    );
+  }
   /* ---------------- Variable global con la información -------- */
   let planData = {};
 
@@ -75,6 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="row-actions">
           <button class="btn-row-add"    title="Añadir fila abajo"><i class="fa-solid fa-plus"></i></button>
           <button class="btn-row-delete" title="Eliminar fila"><i class="fa-solid fa-trash"></i></button>
+          <button class="btn-row-ai"     title="Generar con IA"><i class="fa-solid fa-robot"></i></button>
         </div>
       </td>
     `;
@@ -128,6 +150,40 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       cell.textContent = "Error";
       cell.title       = "Competencia no encontrada";
+    }
+  }
+
+  async function generateWithAI(row) {
+    const subject    = row.querySelector(".select-unidad").value;
+    const contenido  = row.querySelector(".select-contenido").value;
+    const criterio   = row.querySelector(".select-criterio").value;
+    const desarrollo = row.querySelector('textarea[placeholder*="Descripción"]').value;
+
+    if (!subject || !contenido || !criterio) {
+      showToast("Complete unidad, contenido y criterio", "error");
+      return;
+    }
+
+    const prompt =
+      `Genera primero una meta de aprendizaje breve para la unidad ${subject} ` +
+      `sobre "${contenido}" considerando el criterio de logro "${criterio}" y ` +
+      `la descripción actual: "${desarrollo}".\n` +
+      `Luego sugiere una o dos actividades. Responde en formato JSON ` +
+      `con los campos meta y actividades (lista).`;
+
+    showToast("Consultando IA...");
+    let text = "";
+    try {
+      text = await askGemini(prompt);
+      const info = JSON.parse(text);
+      if (info.meta) {
+        row.querySelector('textarea[placeholder*="Meta"]').value = info.meta;
+      }
+      if (Array.isArray(info.actividades)) {
+        row.querySelector('textarea[placeholder*="Descripción"]').value = info.actividades.join("\n");
+      }
+    } catch (err) {
+      row.querySelector('textarea[placeholder*="Meta"]').value = text || "";
     }
   }
 
@@ -263,6 +319,8 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (e.target.closest(".btn-row-add")) {
       row.after(createActivityRow());
       updateActivityNumbers();
+    } else if (e.target.closest(".btn-row-ai")) {
+      generateWithAI(row);
     }
   });
 
