@@ -1,0 +1,47 @@
+{
+  "Espacio científico-matemático": {
+    "Unidad Curricular: Ciencias Biológicas": {
+      "competencias": [
+        { "codigo": "CE1", "descriptor": "Comienza a organizar y planificar sus argumentaciones, con mediación adulta, ante hechos y fenómenos del mundo natural para identificar la diversidad e intervenir en su entorno." },
+        { "codigo": "CE2", "descriptor": "Busca estrategias y analiza posibilidades para abordar colaborativamente problemas socioambientales locales, vinculando conocimientos científicos a evidencias concretas con incipiente autonomía." },
+        { "codigo": "CE3", "descriptor": "Indaga y formula preguntas, con guía docente, sobre fenómenos concretos y su incidencia en el equilibrio ambiental, cuestionando explicaciones de su entorno." },
+        { "codigo": "CE4", "descriptor": "Identifica, compara y reflexiona sobre las etapas de distintos procesos naturales de su entorno, demostrando cierto grado de autonomía para responder a situaciones cotidianas." },
+        { "codigo": "CE5", "descriptor": "Recopila y organiza información, almacena datos y usa diferentes programas para identificar y resolver problemas socioambientales simples vinculados a la salud." },
+        { "codigo": "CE6", "descriptor": "Analiza la veracidad de la información socioambiental y reflexiona sobre sus intereses y motivaciones para valorar la relación individuo-ambiente." },
+        { "codigo": "CE7", "descriptor": "Reconoce emociones propias y ajenas, internaliza límites y reglas y participa en la resolución de conflictos para el autocuidado y el cuidado del entorno." }
+      ],
+      "contenidos": [
+        "Nutrición en animales y humanos: órganos, sistema y aparato digestivo (características, ubicación, funciones); absorción intestinal; prevención de enfermedades que afectan el aparato digestivo", 
+        "Microorganismos y salud bucal: relación entre microorganismos y enfermedades bucales", 
+        "Ecosistemas y conciencia ambiental: niveles de organización en vegetales y animales (células, tejidos)", 
+        "Alimentos orgánicos: soberanía alimentaria, sustentabilidad y biodiversidad; vínculo con la salud humana", 
+        "Reproducción asexual en animales", 
+        "Reproducción sexual en animales: dimorfismo sexual y hermafroditismo", 
+        "Anatomía y fisiología: sistema nervioso, regulación y coordinación; funciones de recreación y descanso; suero y agua"
+      ],
+      "criterios_de_logro": {
+        "CE1": [
+          "Identifica y compara las funciones de los órganos del aparato digestivo y describe el proceso de absorción intestinal en herbívoros, carnívoros y omnívoros, a partir de experiencias prácticas o simuladores" 
+        ],
+        "CE2": [
+          "Analiza la relación entre microorganismos y enfermedades bucales contrastando información con adultos referentes en la temática"
+        ],
+        "CE3": [
+          "Recopila datos sobre los niveles de organización en vegetales y animales y formula preguntas para explicar su incidencia en el equilibrio ambiental"
+        ],
+        "CE4": [
+          "Reconoce y compara las etapas de la reproducción asexual y sexual en animales, distinguiendo dimorfismo y hermafroditismo con mediación docente"
+        ],
+        "CE5": [
+          "Registra y organiza información sobre alimentos orgánicos y biodiversidad para plantear acciones que favorezcan la salud"
+        ],
+        "CE6": [
+          "Contrasta la veracidad de información relacionada con soberanía alimentaria y sustentabilidad, reflexionando sobre intereses personales y comunitarios"
+        ],
+        "CE7": [
+          "Participa en la resolución de conflictos vinculados al cuidado del ambiente y la salud, reconociendo emociones propias y de los demás"
+        ]
+      }
+    }
+  }
+}

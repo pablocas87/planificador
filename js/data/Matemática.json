@@ -1,0 +1,65 @@
+{
+  "Espacio científico-matemático": {
+    "Unidad Curricular: Matemática": {
+      "competencias": [
+        { "codigo": "CE1", "descriptor": "Incorpora paulatinamente el lenguaje matemático relacionándolo con su entorno más próximo para comunicar ideas y decisiones tomadas." },
+        { "codigo": "CE2", "descriptor": "Utiliza diferentes estrategias matemáticas explicando los procedimientos realizados para resolver problemas en distintos contextos." },
+        { "codigo": "CE3", "descriptor": "Descubre regularidades y alteraciones, compara datos e identifica patrones simples, integrando diversos recursos con mediación del docente para ensayar respuestas ante distintas situaciones." },
+        { "codigo": "CE4", "descriptor": "Se inicia en el desarrollo del pensamiento matemático a través de la exploración y formula generalizaciones de manera empírica para elaborar conclusiones." },
+        { "codigo": "CE5", "descriptor": "Identifica el error en su producción matemática perseverando en la búsqueda de nuevas estrategias para generar otras alternativas y contribuir al desarrollo integral de todos." },
+        { "codigo": "CE6", "descriptor": "Reconoce conceptos comerciales y financieros a través de situaciones cotidianas con el fin de comprender su impacto en la vida diaria." },
+        { "codigo": "CE7", "descriptor": "Reconoce información del entorno para cuantificar, establecer relaciones o describir fenómenos." }
+      ],
+      "contenidos": [
+        "Numeración natural: números de hasta 4-5 cifras (conteo, valor posicional, regularidades, composición y descomposición aditiva y multiplicativa, divisibilidad entre 4, 8 y 100; múltiplos y divisores).",
+        "Numeración racional: fracciones y decimales (equivalencias, número mixto, relación de orden, representaciones, valor posicional); tercios, sextos, novenos, doceavos; décimos y centésimos.",
+        "Operaciones: adición, sustracción, multiplicación y división (entre dos cifras, estimación, cálculo pensado); propiedades de la multiplicación; cálculo con números racionales; proporcionalidad directa, escalas y porcentajes.",
+        "Introducción a la probabilidad y a la estadística: frecuencias relativas de sucesos simples; sucesos imposibles, probables y seguros.",
+        "Introducción al álgebra: paridad (número par / impar), patrones, uso de fórmulas y expresiones para cálculo de valores.",
+        "Magnitudes y medidas: perímetro de polígonos, amplitud angular (grado sexagesimal), sistema métrico decimal (múltiplos, submúltiplos, equivalencias, estimaciones y conversiones).",
+        "Geometría en el plano: ángulo recto, clasificación de ángulos; triángulos (por lados y ángulos), cuadriláteros (según diagonales), polígonos (suma de ángulos interiores, convexidad, diagonales), círculo y circunferencia (elementos básicos).",
+        "Geometría en el espacio: posiciones relativas de planos (paralelos, secantes); poliedros rectos y oblicuos; paralelepípedos rectos (ortoedro)."
+      ],
+      "criterios_de_logro": {
+        "CE1": [
+          "Identifica y utiliza números naturales de hasta cinco cifras en forma oral y escrita.",
+          "Interpreta distintos registros de representación numérica a partir de información del entorno.",
+          "Relaciona expresiones decimales con fracciones, números mixtos y porcentajes en diversas situaciones.",
+          "Elabora protocolos de construcción para representar figuras geométricas en distintos soportes."
+        ],
+        "CE2": [
+          "Relaciona el valor posicional de las cifras mediante reagrupamientos al resolver situaciones problemáticas.",
+          "Genera y reconoce fracciones equivalentes en contextos de problema.",
+          "Explica algoritmos convencionales y no convencionales en cálculos con naturales y racionales.",
+          "Clasifica sucesos imposibles, probables y seguros en contextos lúdicos.",
+          "Aplica estrategias de conteo y representaciones espaciales para resolver problemas."
+        ],
+        "CE3": [
+          "Establece relaciones entre número de lados, vértices y diagonales de figuras geométricas.",
+          "Compara perímetros y reconoce que figuras distintas pueden tener igual perímetro.",
+          "Descubre regularidades en múltiplos y divisores (4, 8, 100) y las utiliza para resolver problemas.",
+          "Interpreta escalas en representaciones diversas."
+        ],
+        "CE4": [
+          "Dedu­ce de forma empírica la suma de ángulos interiores en triángulos y cuadriláteros.",
+          "Identifica polígonos convexos y no convexos y clasifica cuadriláteros según sus diagonales.",
+          "Explora alternativas en la construcción de figuras, reconociendo paralelepípedos como caso particular de prismas.",
+          "Asocia el ángulo recto a rectas perpendiculares y utiliza elementos del círculo y la circunferencia en construcciones."
+        ],
+        "CE5": [
+          "Reconoce y corrige, con apoyo docente, errores en procedimientos numéricos y geométricos.",
+          "Valora el error como parte del proceso de aprender, revisando y ajustando sus producciones."
+        ],
+        "CE6": [
+          "Resuelve situaciones de intercambio comercial utilizando diferentes representaciones y operaciones.",
+          "Realiza cálculos con dinero de distintas divisas y aplica porcentajes en contextos cotidianos."
+        ],
+        "CE7": [
+          "Cuantifica magnitudes con la unidad adecuada, estimando cuando es necesario.",
+          "Organiza e interpreta datos en tablas y gráficos, reconociendo la frecuencia relativa.",
+          "Compara e infiere información aritmética o geométrica a partir de situaciones concretas."
+        ]
+      }
+    }
+  }
+}

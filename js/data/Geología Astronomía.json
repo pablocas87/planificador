@@ -1,0 +1,61 @@
+{
+  "Espacio científico-matemático": {
+    "Unidad Curricular: Ciencias de la Tierra y el Espacio": {
+      "competencias": [
+        {
+          "codigo": "CE1",
+          "descriptor": "Utiliza el lenguaje y el vocabulario específico; experimenta y representa los movimientos de los astros y sus consecuencias, contribuyendo al pensamiento científico para entender los fenómenos astronómicos."
+        },
+        {
+          "codigo": "CE2",
+          "descriptor": "Reconoce y expresa los movimientos aparentes de los astros para comprender distintos fenómenos astronómicos."
+        },
+        {
+          "codigo": "CE3",
+          "descriptor": "Observa, reconoce, describe y representa el cielo nocturno con la finalidad de conocer instrumentos que permitan la orientación y ubicarse en el espacio, con mediación."
+        },
+        {
+          "codigo": "CE4",
+          "descriptor": "Identifica, describe y explica las características y dinámicas de los bienes ambientales con mediación para tomar conciencia de su importancia."
+        },
+        {
+          "codigo": "CE5",
+          "descriptor": "Observa, experimenta e inicia la reflexión y comunica los procesos observables de los fenómenos geológicos con mediación para valorar los bienes naturales."
+        }
+      ],
+      "contenidos": [
+        "El origen del Sistema Solar.",
+        "La representación del Sistema Solar, en especial la Tierra.",
+        "La Luna como satélite de la Tierra.",
+        "El cielo nocturno.",
+        "Las estrellas: brillo y color.",
+        "Las constelaciones: Orión, Escorpión, Cruz del Sur.",
+        "El ciclo hidrológico: las aguas subterráneas (acuíferos: circulación, infiltración y napas).",
+        "Los acuíferos en Uruguay y América.",
+        "Las precipitaciones como agente erosivo.",
+        "Suelo: concepto, estructura y componentes (relación entre agua y suelo, porosidad, permeabilidad).",
+        "Suelos agrícolas: características.",
+        "El agua como agente erosivo."
+      ],
+      "criterios_de_logro": {
+        "CE1": [
+          "Emplea y registra vocabulario sobre el origen del Sistema Solar mediante el trabajo colaborativo.",
+          "Experimenta, representa y explica el Sistema Solar —en especial la Tierra— utilizando diversos formatos y dispositivos."
+        ],
+        "CE2": [
+          "Observa, reconoce y comunica los movimientos aparentes de los astros, específicamente la Luna como satélite de la Tierra, con mediación docente."
+        ],
+        "CE3": [
+          "Observa, identifica, describe, representa y expone el cielo nocturno utilizando recursos tecnológicos."
+        ],
+        "CE4": [
+          "Identifica, describe y explica el ciclo hidrológico con mediación.",
+          "Reconoce y explica las características de los acuíferos en Uruguay y América de forma colaborativa."
+        ],
+        "CE5": [
+          "Observa, experimenta e inicia la reflexión acerca de las precipitaciones como agente erosivo del suelo, valorando los bienes naturales, con mediación."
+        ]
+      }
+    }
+  }
+}

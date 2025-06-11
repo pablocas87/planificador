@@ -1,0 +1,61 @@
+{
+  "Espacio científico-matemático": {
+    "Unidad Curricular: Física y Química": {
+      "competencias": [
+        {
+          "codigo": "CE1",
+          "descriptor": "Ensaya respuestas y experimenta con una gama de opciones al poner sus ideas a prueba acerca de los sistemas materiales, para responder a distintas situaciones simples de su entorno, utilizando formas creativas, lógicas o heurísticas." 
+        },
+        {
+          "codigo": "CE2",
+          "descriptor": "Identifica distintos puntos de vista y construye alternativas a situaciones concretas de sistemas materiales, infiriendo información a partir de elementos icónicos y verbales para comunicarse mediante diferentes lenguajes, medios y tecnologías."
+        },
+        {
+          "codigo": "CE3",
+          "descriptor": "Formula preguntas sobre los sistemas materiales y sus transformaciones, construyendo significados e interpretaciones más allá de lo obvio relativo a objetos o situaciones concretas."
+        },
+        {
+          "codigo": "CE4",
+          "descriptor": "Inicia el proceso de autorregulación del pensamiento al vincular el conocimiento científico con evidencias de fenómenos cotidianos, abordados con incipiente autonomía o mediante algoritmos con instrucciones acotadas."
+        },
+        {
+          "codigo": "CE5",
+          "descriptor": "Vincula conocimientos científicos a evidencias concretas con incipiente autonomía, identificando problemas socioambientales de su entorno y cuestionando explicaciones científicas y técnicas a partir de sus ideas previas."
+        }
+      ],
+      "contenidos": [
+        "El agua y sus propiedades. Tipos de agua",
+        "Interacción gravitatoria",
+        "Diferencia entre peso y masa",
+        "La variación de la densidad según el estado de agregación",
+        "Calor, temperatura y sensación térmica",
+        "Clasificación de espejos",
+        "La reflexión especular y difusa",
+        "La flotación y la fuerza de empuje; variación de la flotación con la densidad (barcos, hidroterapia, globos aerostáticos, peso real y aparente)",
+        "La fuerza elástica y la deformación. Construcción del dinamómetro"
+      ],
+      "criterios_de_logro": {
+        "CE1": [
+          "Identifica y reconoce características macroscópicas y propiedades de diferentes muestras de agua mediante la experimentación.",
+          "Reconoce el peso como resultado de la interacción gravitatoria, comprendiendo que depende del lugar donde se encuentre el cuerpo.",
+          "Reconoce la masa como propiedad que se determina con la balanza y la diferencia del peso."
+        ],
+        "CE2": [
+          "Observa e identifica características de las imágenes formadas en distintos espejos, relacionándolas con su clasificación."
+        ],
+        "CE3": [
+          "Explica que la variación de la densidad de un material depende de su estado de agregación a partir de observaciones o experiencias.",
+          "Relaciona sensación térmica y temperatura en situaciones cotidianas, explicando la transferencia de calor."
+        ],
+        "CE4": [
+          "Manipula materiales elásticos para construir un dinamómetro, poniendo en duda ideas previas y mejorando el diseño.",
+          "Relaciona flotación y fuerza de empuje resolviendo situaciones en diversos contextos (río, mar, globos, etc.)."
+        ],
+        "CE5": [
+          "Realiza colaborativamente experimentos sobre reflexión especular y difusa, comunicando resultados de forma efectiva.",
+          "Identifica problemas socioambientales vinculados al agua, investiga sus causas y propone acciones de mejora."
+        ]
+      }
+    }
+  }
+}

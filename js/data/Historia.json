@@ -1,0 +1,47 @@
+{
+  "Espacio Ciencias Sociales y Humanidades": {
+    "Unidad Curricular: Historia": {
+      "competencias": [
+        { "codigo": "CE1", "descriptor": "Elabora, con guía docente, argumentos pertinentes a la temática histórica, la situación y el interlocutor para desarrollar una oralidad fluida." },
+        { "codigo": "CE2", "descriptor": "Construye explicaciones sencillas sobre fenómenos y sujetos sociales para comprender la sociedad en la que vive." },
+        { "codigo": "CE3", "descriptor": "Explica las manifestaciones culturales de los grupos sociales para desarrollar la sensibilidad y su punto de vista personal." },
+        { "codigo": "CE4", "descriptor": "Participa y propone proyectos de indagación sobre temáticas contextualizadas a fin de resolver situaciones-problema de la comunidad." },
+        { "codigo": "CE5", "descriptor": "Selecciona herramientas digitales para interpretar y organizar información en su contexto histórico." },
+        { "codigo": "CE6", "descriptor": "Construye el proceso de escritura en Historia a partir de la curiosidad e intereses propios para su apropiación." }
+      ],
+      "contenidos": [
+        "La colonización europea en América (siglos XVI-XVII) y la formación social, cultural y económica resultante (producciones, comercio, etc.).",
+        "Unidades administrativas y formas de organización política de España en América (virreinatos, gobernaciones) y los cabildos seculares.",
+        "España y Portugal en el Río de la Plata. La Banda Oriental: «pradera, frontera y puerto». Asentamientos (Colonia, Montevideo, Maldonado) y su evolución hasta 1808; formas de vida en campo y ciudad, el gaucho.",
+        "Las nuevas ideas y las revoluciones políticas, sociales y tecnológicas en la Europa del siglo XVIII. Declaración de los Derechos del Hombre y del Ciudadano (1789).",
+        "Repercusiones en Hispanoamérica y el Virreinato del Río de la Plata hasta 1808: independencia norteamericana y movimiento juntista.",
+        "Conceptos transversales: colonización, aculturación, transculturación, monarquía, Ilustración, liberalismo, ciudadanía, república, revolución industrial, independencia, ciencia, tecnología, estamentos, clases sociales, frontera como espacio en construcción, bienes patrimoniales."
+      ],
+      "criterios_de_logro": {
+        "CE1": [
+          "Elabora argumentos orales adecuados a la situación e interlocutor acerca de distintos periodos históricos.",
+          "Formula argumentos a partir de diversas fuentes históricas.",
+          "Ensaya opiniones argumentadas sobre temáticas de su interés."
+        ],
+        "CE2": [
+          "Construye explicaciones sobre sujetos sociales y fenómenos del periodo histórico estudiado.",
+          "Elabora explicaciones a partir de preguntas-problema surgidas de fuentes históricas."
+        ],
+        "CE3": [
+          "Reconoce las diversas manifestaciones culturales y sus vínculos con el medio geográfico.",
+          "Explica fuentes testimoniales como expresión de las culturas locales."
+        ],
+        "CE4": [
+          "Propone y participa, con guía docente, en proyectos de indagación sobre temáticas de interés ligadas a la historia de la comunidad."
+        ],
+        "CE5": [
+          "Reconoce y selecciona herramientas digitales para organizar e interpretar información histórica."
+        ],
+        "CE6": [
+          "Produce narraciones escritas sobre temas históricos significativos en su contexto.",
+          "Incorpora vocabulario específico en la escritura sobre hechos de distintos periodos."
+        ]
+      }
+    }
+  }
+}

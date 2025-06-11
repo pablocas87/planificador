@@ -1,0 +1,62 @@
+{
+  "Espacio Ciencias Sociales y Humanidades": {
+    "Unidad Curricular: Formación para la ciudadanía": {
+      "competencias": [
+        { "codigo": "CE1",  "descriptor": "Se expresa y desarrolla estrategias de comunicación contextualizadas para referirse a temáticas vinculadas a fenómenos sociales." },                 
+        { "codigo": "CE2",  "descriptor": "Indaga, con guía docente, e identifica y propone soluciones ante diversas situaciones del entorno social, mostrando sensibilidad y creatividad." },  
+        { "codigo": "CE3",  "descriptor": "Comienza a reconocer problemas sociales desde distintos puntos de vista, construyendo alternativas y diferenciando emociones de argumentos." },      
+        { "codigo": "CE4",  "descriptor": "Reflexiona sobre el uso de internet y redes sociales en relación con la protección de los datos personales y la resolución de problemas cotidianos." }, 
+        { "codigo": "CE5",  "descriptor": "Reconoce y utiliza recursos para acceder a información que le permita comprender fenómenos sociales." },                                         
+        { "codigo": "CE6",  "descriptor": "Reconoce sus emociones y las de los demás en la construcción de su identidad y en el vínculo con otras personas." },                             
+        { "codigo": "CE7",  "descriptor": "Identifica problemas de la realidad social y busca alternativas de solución colaborativa mediante proyectos." },                               
+        { "codigo": "CE8",  "descriptor": "Internaliza habilidades sociales básicas para participar en actividades colectivas de su comunidad." },                                          
+        { "codigo": "CE9",  "descriptor": "Identifica derechos y responsabilidades y reconoce su implicancia para la vida democrática, evitando estereotipos y prejuicios." },            
+        { "codigo": "CE10", "descriptor": "Reconoce y valora la diversidad y promueve iniciativas democráticas para mejorar su entorno escolar y comunitario." }                           
+      ],
+
+      "contenidos": [
+        "El derecho a la integridad física y moral; el derecho a la intimidad; lo íntimo, lo público y lo privado.",                                                                                                  
+        "La mediación como forma de resolución de conflictos.",                                                                                                                                                       
+        "La democracia como forma de gobierno: gobierno nacional y departamental; competencias y relaciones.",                                                                                                        
+        "El cuidado, el respeto y la solidaridad como valores ciudadanos frente al tránsito.",                                                                                                                         
+        "Migración: situaciones de los migrantes y su lucha por la igualdad de derechos en el mundo del trabajo.",                                                                                                    
+        "La construcción de ciudadanía en entornos digitales: desafíos y oportunidades; seguridad de los datos personales.",                                                                                          
+        "Las actitudes violentas en espectáculos públicos y estrategias de convivencia pacífica."                                                                                                                       
+      ],
+
+      "criterios_de_logro": {
+        "CE1": [
+          "Se comunica oralmente y por escrito de manera contextualizada sobre fenómenos sociales, empleando recursos lingüísticos adecuados."
+        ],
+        "CE2": [
+          "Con la guía docente, identifica problemas del entorno social cercano y propone soluciones creativas para transformarlo."
+        ],
+        "CE3": [
+          "Reconoce distintos puntos de vista ante un problema social y elabora alternativas diferenciando emociones de argumentos."
+        ],
+        "CE4": [
+          "Analiza la fiabilidad de la información en internet y distingue prácticas seguras en el manejo de datos personales."                                                                                           
+        ],
+        "CE5": [
+          "Selecciona y utiliza fuentes y herramientas que facilitan la comprensión de fenómenos sociales relevantes."
+        ],
+        "CE6": [
+          "Reconoce y verbaliza emociones propias y ajenas, favoreciendo la empatía y el autocuidado."
+        ],
+        "CE7": [
+          "Propone soluciones colaborativas a problemas de su comunidad inmediata y participa activamente en su implementación."                                                                                         
+        ],
+        "CE8": [
+          "Demuestra habilidades de interacción, escucha y cooperación en actividades colectivas escolares y comunitarias."                                                                                              
+        ],
+        "CE9": [
+          "Identifica estereotipos y prejuicios que obstaculizan el desarrollo pleno de las personas y actúa en consecuencia para evitarlos.",                                                                            
+          "Reconoce sus derechos y responsabilidades y explica su importancia para la convivencia democrática."
+        ],
+        "CE10": [
+          "Valora la diversidad cultural y social, participa de forma respetuosa en situaciones cotidianas (por ejemplo, en el tránsito) y diseña iniciativas para mejorar el entorno escolar o comunitario de forma democrática." 
+        ]
+      }
+    }
+  }
+}

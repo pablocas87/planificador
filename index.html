@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador Semanal Docente</title>
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+</head>
+<!-- …encabezado sin cambios… -->
+<body>
+  <header>
+      <h1>Planificador Semanal - Tramo 3</h1>
+  </header>
+
+  <main>
+      <div id="planificacion-container">
+          <!-- ➊  Anchuras iniciales (ajústalas a gusto) -->
+          <colgroup>
+            <col style="width: 2%">
+            <col style="width: 15%">
+            <col style="width: 16%">
+            <col style="width: 16%">
+            <col style="width: 16%">
+            <col style="width: 14%">
+            <col style="width: 15%">
+            <col style="width: 2%">
+          </colgroup>
+
+          <table id="tabla-planificacion">
+              <thead>
+                  <tr>
+                      <th>Actividad Nº</th>
+                      <th>Unidad Curricular</th>
+                      <th>Contenido</th>
+                      <th>Criterio de Logro</th>
+                      <th>Competencia Específica</th>
+                      <th>Meta de Aprendizaje</th>
+                      <th>Desarrollo</th>
+                      <th>Acciones</th>
+                  </tr>
+              </thead>
+              <tbody id="cuerpo-tabla"></tbody>
+          </table>
+      </div>
+
+      <!-- ➋  Flexbox → botones siempre lado a lado -->
+      <div class="actions">
+          <button id="btn-add-activity">➕ Añadir Actividad</button>
+          <button id="btn-copy-docs">📄 Copiar para Google Docs</button>
+      </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
