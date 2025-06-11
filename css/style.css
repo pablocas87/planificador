@@ -1,0 +1,142 @@
+/* ---------------------------------------------------------
+   Planificador Semanal – estilos generales
+--------------------------------------------------------- */
+:root {
+  --primary-color: #4a90e2;
+  --background-color: #f4f7f6;
+  --font-color: #333;
+  --border-color: #ddd;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  margin: 0;
+  padding: 20px;
+}
+
+/* ---------------- Cabecera y contenedor tabla ------------- */
+header { text-align: center; margin-bottom: 10px; }
+
+#planificacion-container {
+  overflow-x: auto;             /* scroll horizontal si hace falta */
+  max-width: 100%;
+}
+
+/* ---------------------- Tabla ----------------------------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;          /* respeta <colgroup> */
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+thead th {
+  background-color: var(--primary-color);
+  color: #fff;
+  position: sticky;             /* siempre visible al hacer scroll */
+  top: 0;
+  z-index: 2;
+}
+
+th,
+td {
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;      /* evita desbordes largos */
+}
+
+/* ------------ selects, textareas, etc. -------------------- */
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* --------------- Zona de acciones globales ---------------- */
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.actions button {
+  flex: 1 1 200px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+#btn-add-activity       { background: #28a745; }
+#btn-copy-docs          { background: #17a2b8; }
+
+.actions button:hover   { opacity: 0.85; }
+
+/* -------- Botones internos de cada fila (más / papelera) -- */
+.row-actions {
+  display: flex;                /* ✅ siempre en línea */
+  align-items: center;
+  gap: 4px;
+  opacity: 0;                   /* se muestran solo al pasar el mouse */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.activity-row:hover .row-actions { opacity: 1; }
+
+.row-actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.row-actions button:hover { background: #f0f0f0; }
+
+/* --------------- Celda de competencia --------------------- */
+.competencia-cell {
+  white-space: pre-wrap;          /* mantiene saltos de línea */
+  font-weight: 600;
+  cursor: default;
+}
+
+/* --------------- Grip para redimensionar columnas --------- */
+th .col-grip {
+  position: absolute;
+  top: 0;
+  right: -3px;
+  bottom: 0;
+  width: 6px;
+  cursor: col-resize;
+  z-index: 3;
+}

@@ -1,0 +1,101 @@
+{
+  "Espacio de comunicación": {
+    "Unidad Curricular: Lengua Española": {
+      "competencias": [
+        { "codigo": "CE1", "descriptor": "Narra, describe, dialoga, explica e incorpora vocabulario para comunicarse según los requerimientos de cada situación (orales y escritas)" },
+        { "codigo": "CE2", "descriptor": "Organiza y expresa ideas creativamente a través de la oralidad y de la escritura, para comunicarse y participar activamente de diferentes situaciones" },
+        { "codigo": "CE3", "descriptor": "Indaga sobre significados diversos y desconocidos, formula preguntas, dialoga y da razones básicas para construir sus puntos de vista" },
+        { "codigo": "CE4", "descriptor": "Analiza el objeto de estudio y presenta hipótesis de forma oral y escrita para expresarse mediante vocabulario específico" },
+        { "codigo": "CE5", "descriptor": "Reconoce y organiza la nueva información oral y escrita, para la resolución de problemas emergentes del entorno cotidiano" },
+        { "codigo": "CE6", "descriptor": "Reflexiona y monitorea su aprendizaje con mediación, para avanzar en el proceso de conocimiento de la lengua oral y escrita" },
+        { "codigo": "CE7", "descriptor": "Explora sus posibilidades expresivas en diferentes contextos intraescolares y sociales para fortalecer la construcción de su identidad" },
+        { "codigo": "CE8", "descriptor": "Identifica desafíos y comienza a resolver situaciones a través de recursos propios de la lengua oral y escrita, para generar respuestas asertivas a necesidades concretas" },
+        { "codigo": "CE9", "descriptor": "Desarrolla estrategias comunicativas y el respeto a la diversidad, para mejorar la trama vincular en actividades intraescolares y sociales" },
+        { "codigo": "CE10", "descriptor": "Reconoce derechos y obligaciones que promueven la adecuada convivencia mediante un vocabulario apropiado a la situación, para fomentar el respeto interpersonal" }
+      ],
+      "contenidos": [
+        "La oralidad planificada y no planificada",
+        "La exposición de temas específicos",
+        "La ampliación de vocabulario",
+        "La descripción en narraciones y explicaciones",
+        "La dramatización",
+        "La escucha y producción en diferentes soportes multimediales",
+        "La escucha respetuosa de diversas opiniones y las razones para sostener las propias",
+        "La escucha atenta de exposiciones sobre temas de estudio",
+        "La acentuación tónica de las palabras",
+        "El poema: versos y otros aspectos",
+        "Las marcas gráficas y lingüísticas en narraciones con incrustaciones dialógicas",
+        "Estrategias discursivas organizacionales",
+        "Estrategias discursivas: construcción de sentido y vínculo entre párrafos",
+        "Inferencias enunciativas en la explicación",
+        "Análisis de textos de divulgación",
+        "Práctica de lectura de diferentes géneros textuales (diálogo y narración)",
+        "El resumen",
+        "El cuadro sinóptico",
+        "Escritura de textos breves: jerarquización de contenidos y estructuración en párrafos",
+        "Escritura de textos narrativos con incrustaciones dialógicas",
+        "Diptongo e hiato",
+        "Verbos de habla (por ejemplo, \"decir\")",
+        "Tiempos verbales",
+        "Yuxtaposición de oraciones (el uso de la coma)",
+        "Clasificación de palabras por acentuación (agudas, graves, esdrújulas)",
+        "Uso del tilde",
+        "Signos de puntuación: raya en aclaraciones, comillas, paréntesis",
+        "Raya en discurso directo; comillas en citas y reproducción del pensamiento",
+        "Usos de la letra H",
+        "Textos sugeridos en distintos soportes: narrativos, expositivo-explicativos, descriptivos y argumentativos"
+      ],
+      "criterios_de_logro": {
+        "CE1": [
+          "Narra, explica y describe oralmente de forma planificada y no planificada, adecuando tono, volumen y postura al contexto de comunicación",
+          "Dialoga incorporando vocabulario específico en intercambios asertivos",
+          "Lee y compara textos continuos y discontinuos en distintos formatos",
+          "Construye y relaciona significados a partir de información explícita e implícita",
+          "Organiza y jerarquiza ideas, incorporando vocabulario específico en textos orales y escritos",
+          "Emplea sinónimos textuales, sustitución pronominal y repeticiones como recursos cohesivos",
+          "Utiliza correctamente los signos de puntuación",
+          "Aplica concordancia en el sintagma nominal",
+          "Integra conocimientos de morfología verbal en sus producciones"
+        ],
+        "CE2": [
+          "Utiliza el vocabulario de manera creativa",
+          "Reconoce recursos lingüísticos y los aplica en sus textos",
+          "Incorpora adjetivos para crear textos originales y atractivos",
+          "Elabora narraciones con incrustaciones dialógicas de forma original",
+          "Adapta sus producciones a distintos registros lingüísticos según la situación"
+        ],
+        "CE3": [
+          "Selecciona y explicita razones pertinentes al tema de discusión",
+          "Sustenta opiniones con voces de autoridad cuando corresponde"
+        ],
+        "CE4": [
+          "Formula hipótesis con vocabulario adecuado al tema de estudio, de forma oral y escrita",
+          "Reflexiona sobre hipótesis científicas durante procesos de indagación"
+        ],
+        "CE5": [
+          "Utiliza información para explicitar un camino resolutivo lógico ante un problema"
+        ],
+        "CE6": [
+          "Selecciona el verbo pertinente al acto de habla",
+          "Relaciona tiempo verbal y género discursivo en la construcción de sentido",
+          "Reconoce y usa signos gráficos del estilo directo",
+          "Relaciona acentuación tónica y clasificación de palabras"
+        ],
+        "CE7": [
+          "Produce textos que evidencian rasgos personales y comunitarios, reforzando su identidad"
+        ],
+        "CE8": [
+          "Expresa su opinión y propone pasos de resolución en desafíos emergentes, individual o colectivamente"
+        ],
+        "CE9": [
+          "Distingue estrategias para regular vínculos y resolver conflictos de manera asertiva",
+          "Emplea expresiones que median ante la diversidad de opiniones"
+        ],
+        "CE10": [
+          "Reconoce vocabulario propio de entornos digitales y lo utiliza para vincularse adecuadamente",
+          "Identifica, nombra y practica deberes y derechos asociados a la formación ciudadana"
+        ]
+      }
+    }
+  }
+}

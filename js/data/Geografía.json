@@ -1,0 +1,70 @@
+{
+  "Espacio Ciencias Sociales y Humanidades": {
+    "Unidad Curricular: Geografía": {
+      "competencias": [
+        {
+          "codigo": "CE1",
+          "descriptor": "Participa y comienza a reflexionar, en situaciones de convivencia cotidianas, sobre los bienes comunes ambientales de su entorno para su disfrute y conservación, de acuerdo con sus intereses y motivaciones."
+        },
+        {
+          "codigo": "CE2",
+          "descriptor": "Identifica y analiza, a través del lenguaje cartográfico convencional y social, el espacio local y regional empleando diferentes herramientas para la interpretación geográfica del territorio."
+        },
+        {
+          "codigo": "CE3",
+          "descriptor": "Experimenta y comunica sobre los bienes naturales y culturales del entorno local y regional y sus usos, cuidados y disfrute para interactuar con el ambiente de forma armónica."
+        },
+        {
+          "codigo": "CE4",
+          "descriptor": "Representa y explica las características de los diferentes territorios, con mediación docente, para comprender su dinámica."
+        },
+        {
+          "codigo": "CE5",
+          "descriptor": "Propone preguntas y respuestas alternativas, reconoce problemas y oportunidades socioambientales y busca sus causas y consecuencias, combinando ideas propias y ajenas."
+        },
+        {
+          "codigo": "CE6",
+          "descriptor": "Indaga, identifica y comienza a reflexionar sobre la influencia del uso de la tecnología en las actividades productivas, con mediación, para reconocer su impacto ambiental."
+        },
+        {
+          "codigo": "CE7",
+          "descriptor": "Identifica y comunica opiniones sobre la población, en actividades colaborativas mediadas por el docente, para conocer y valorar su composición y diversidad."
+        }
+      ],
+      "contenidos": [
+        "Lenguaje cartográfico: coordenadas, referencias y escala en representaciones convencionales, digitales y sociales; Uruguay en las Américas; fotografías aéreas, imágenes satelitales y cartografía social.",
+        "Bienes comunes ambientales: agua, suelo, subsuelo, flora y fauna; cuencas hidrográficas de América (hidrovía Paraguay–Paraná–Uruguay); Acuífero Guaraní y aguas termales; áreas protegidas y reservas; normativa, conciencia social y derechos de la naturaleza.",
+        "Actividades productivas: circuitos espaciales de producción en América; forestación en Uruguay y sus impactos; turismo como industria nacional; comercio formal e informal; sustentabilidad, soberanía alimentaria y justicia ambiental.",
+        "Los territorios: cambio climático; elementos y factores del clima; ciudades, ruralidades y neorruralidad; organización territorial en países y regiones; paisaje uruguayo (pastizales) y relaciones relieve-clima-biota-actividad humana.",
+        "La población: dinámica, volumen, estructura y distribución; migraciones; diversidad sociocultural y económica; formas de urbanización y ruralidad; organizaciones de la sociedad civil.",
+        "Tecnología y ambiente: incidencia de la innovación tecnológica en el mundo laboral y su impacto ambiental."
+      ],
+      "criterios_de_logro": {
+        "CE1": [
+          "Participa y reflexiona, de forma colaborativa, sobre las cuencas hidrográficas americanas y su potencial como medio de comunicación y transporte.",
+          "Participa y reflexiona sobre el valor de las aguas subterráneas en situaciones de disfrute y valoración del entorno local."
+        ],
+        "CE2": [
+          "Identifica y analiza, mediante lenguaje cartográfico convencional y creación colaborativa, el espacio regional empleando diversas herramientas y materiales."
+        ],
+        "CE3": [
+          "Experimenta, participa y comunica acerca de áreas protegidas y reservas en situaciones de disfrute y valoración del entorno local."
+        ],
+        "CE4": [
+          "Representa y explica, con diferentes herramientas y soportes, las organizaciones territoriales.",
+          "Representa, explica y valora el paisaje uruguayo (pastizal) y las relaciones entre elementos naturales y acciones antrópicas."
+        ],
+        "CE5": [
+          "Plantea preguntas y reconoce problemas relacionados con distintos circuitos espaciales de producción y con el uso del suelo, agua, aire, flora y fauna, combinando ideas propias y de otras personas."
+        ],
+        "CE6": [
+          "Indaga, identifica y reflexiona sobre la influencia de la tecnología en el mundo laboral mediante los recursos disponibles."
+        ],
+        "CE7": [
+          "Identifica, reflexiona y comunica opiniones sobre la diversidad poblacional y las distintas formas de urbanización de manera colaborativa.",
+          "Participa y comunica las características de otros modelos de organización social de forma colaborativa."
+        ]
+      }
+    }
+  }
+}
